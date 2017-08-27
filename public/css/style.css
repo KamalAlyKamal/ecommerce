@@ -1,0 +1,171 @@
+.btn {
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+/*Class for the category list items*/
+.categories {
+	border: 1px solid #F7F7F0;
+	border-radius: 20px;
+}
+
+/*ID for CATEGORIES word*/
+#categories {
+	text-align: center;
+	color: #0b0087;
+	/*#FE980F*/
+	font-size: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+#featuredItems {
+	text-align: center;
+	color: #0b0087;
+	/*#FE980F*/
+	font-size: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+#brands {
+	text-align: center;
+	color: #0b0087;
+	font-size: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.card {
+	border: 0;
+}
+
+.fa-plus {
+	float: right;
+	margin-top: 5px;
+	margin-right: 3px;
+}
+
+.productInfo {
+	/*width: 50px;
+	height: 50px;*/
+	margin-bottom: 25px;
+	/*margin-top: 25px;*/
+}
+
+.productInfo img {
+	border: none;
+	vertical-align: middle;
+	width: 100%;
+	height: 70%;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.productPrice {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.productDescription {
+	text-align: center;
+	margin-top: -5px;
+}
+
+.productCard {
+	border: 1px solid grey;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	transition: all 0.4s ease;
+}
+
+.productCard:hover {
+	transform: scale(1.2);
+	z-index:20;
+}
+
+.box{
+  box-model: border-box;
+  border: 3px solid transparent;		/*For Spacing between Columns*/
+  background-clip:padding-box;
+}
+
+
+.fa-facebook-square, .fa-instagram {
+	font-size: 40px;
+	color: black;
+	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+}
+
+.fa-facebook-square:hover, .fa-instagram:hover {
+	color: #ff9000;
+}
+
+.footerinfo {
+	background-color: #334259;
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+
+#footerinfoaboutus {
+	text-align: justify;
+}
+
+
+.copyright { 
+	min-height:40px; background-color:#000000;
+}
+
+.copyright p { 
+ 	text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;
+ }
+
+ .footerlink { 
+ 	color:#d8d8d8; 
+ 	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+ }
+
+ a[class="footerlink"]:hover {
+ 	color: #ff9000;
+ }
+
+ #buttonTop {
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	border-radius: 10px;
+	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+}
+
+#buttonTop:hover {
+	background-color: black;
+}
+
+#buttonTop:hover i {
+	color: white;
+}
+
+/*pull right for the badges*/
+.pull-right {			
+	margin-top: 10px;
+	margin-right: 3px;
+}
+
+#slider-range .ui-slider-range { 
+	background: #88ac0b; 
+}
