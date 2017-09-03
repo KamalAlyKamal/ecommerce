@@ -7,12 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Homepage</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+       
 
-        {{-- ********************************************************************** --}}
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        {{-- Built-In Bootstrap 4 --}}
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+
+        {{-- Built-In Vue JS 2 --}}
+        <script type="text/javascript" src="js/app.js"></script>
 
         <!-- jQuery -->
         <script
@@ -31,11 +32,6 @@
         <!-- Popper Js -->
         <script 
         src="https://cdn.bootcss.com/popper.js/1.9.3/umd/popper.min.js" integrity="sha384-knhBOwpf8/28D6ygAjJeb0STNDZqfPbKaWQ8wIz/xgSc0xXwKsKhNype8fmfMka2" crossorigin="anonymous">
-        </script>
-
-        <!-- Bootstrap Javascript -->
-        <script 
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
         </script>
 
         <!-- Font Awesome -->
@@ -58,6 +54,9 @@
         {{-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> --}}
         {{-- <link rel="icon" href="img/favicon.ico" type="image/x-icon"> --}}
         {{-- ********************************************************************** --}}
+        <script type="text/javascript">
+            
+        </script>
         
     </head>
     <body>{{-- 
