@@ -1,63 +1,291 @@
+/*=============================================THIS CSS IS FOR NAVBAR TEMPLATE ONLY====================================================*/
+
+/*======================================DELETE=============================*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #DBE2EF;
+}
+/*======================================DELETE=============================*/
+/*Changing cursor on buttons hover*/
+.btn {
+	cursor: pointer;
+}
+
+/*For Spacing between items*/
+.navbar-nav > li{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+
+/*For adjusting the navbar size from all sides*/
+.navbar{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+/*navbar background color*/
+.navbar {
+	background-color: #F9F7F7 !important;
+}
+
+/*For styling navbar items*/
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link {
+	background-color: transparent;
+	color: black;
+	transition: all .3s ease;
+}
+
+/*For Home Link Hover in Navbar*/
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link:hover {
+	color: black;
+}
+
+/*FOR MORE ANIMATIONS CHECK HOVER.CSS FILE*/
+/*For Underline animation on navbar link*/
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: orange; /*EDIT THIS COLOR TO CHANGE UNDERLINE COLOR*/
+  height: 2px; /*EDIT THIS TO CHANGE UNDERLINE THICKNESS*/
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+/*Input Group for Login/Register Div*/
+.login-register-div {
+	width: 250px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: #F9F7F7;
+	position: fixed;
+	right: 100px;
+	top: 110px;
+}
+
+.arrow-up-login-register {
+  width: 0; 
+  height: 0;
+  position: fixed;
+  right: 230px;
+  top: 100px;
+  z-index: 100;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  
+  border-bottom: 10px solid #F9F7F7;
+}
+
+/*For Width and Padding of each input*/
+.input-group {
+	width: 250px;
+	padding: 10% 10%;
+}
+
+/*for centering buttons*/
+.loginRegisterButtonDiv {
+	justify-content: center;
+    align-items: center;
+    /*width: 100%;*/
+	padding-left: 75px !important;
+	padding-right: 75px !important;
+}
+
+.loginButton {
+	padding-left: 75px; 
+	padding-right: 75px;
+}
+
+.RegisterButton {
+	font-size: 15px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+/*Overwriting some properties of btn-primary class*/
+.btn-primary-custom{
+	background-color: black;
+	border: 1px solid transparent;
+}
+
+.btn-primary-custom:hover{
+	background-color: orange;
+	border: 1px solid orange;
+}
+
+/*OR Image*/
+#orImage {
+	height: 15%;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*For hr breaks in cart popup*/
+.hrCart {
+	width: 80%;
+}
+
+/*For Cart Div*/
+.cart-div {
+	height: 400px;
+	width: 350px;
+	position: fixed;
+	right: 15px;
+	top: 110px;
+	background-color: #F9F7F7;
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+/*For the tooltip arrow above the cart div*/
+.arrow-up-cart {
+  width: 0; 
+  height: 0;
+  position: fixed;
+  right: 105px;
+  top: 100px;
+  z-index: 100;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  
+  border-bottom: 10px solid #F9F7F7;
+}
+
+.cart-div-items {
+	height: 55%;
+}
+
+.cart-div-footer {
+	padding-left: 20%;
+}
+
+#checkoutButton {
+	width: 80%;
+}
+
+/*Changing the cart icon size*/
+.fa-shopping-cart {
+  color: #515783;
+  font-size: 24px;
+  margin-right: 7px;
+  float: left;
+}
+
+#totalAmountCart {
+	float: right;
+	color: #ABB0BE;
+}
+
+.cartPrice {
+	color: #6394F8;
+}
+
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+
+
+
+/*=====================================================================================================================================*/
+
+
+
+
+/*=================================================NEW WEBSITE==============================================*/
+/*
 .btn {
 	cursor: pointer;
 	text-align: center;
 	vertical-align: middle;
 }
 
-
+*/
 
 
 /*Class for the category list items*/
-.categories {
+/*.categories {
 	border: 1px solid #F7F7F0;
 	border-radius: 20px;
-}
+}*/
 
 /*ID for CATEGORIES word*/
-#categories {
-	text-align: center;
-	color: #0b0087;
-	/*#FE980F*/
-	font-size: 25px;
-	margin-bottom: 25px;
-	margin-top: 25px;
-}
-
-#featuredItems {
-	text-align: center;
-	color: #0b0087;
-	/*#FE980F*/
-	font-size: 25px;
-	margin-bottom: 25px;
-	margin-top: 25px;
-}
-
-#brands {
+/*#categories {
 	text-align: center;
 	color: #0b0087;
 	font-size: 25px;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
+*/
+/*#featuredItems {
+	text-align: center;
+	color: #0b0087;
+	font-size: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}*/
 
-.card {
+/*#brands {
+	text-align: center;
+	color: #0b0087;
+	font-size: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+*/
+/*.card {
 	border: 0;
 }
-
-.fa-plus {
+*/
+/*.fa-plus {
 	float: right;
 	margin-top: 5px;
 	margin-right: 3px;
-}
+}*/
 
-.productInfo {
-	/*width: 50px;
-	height: 50px;*/
+/*.productInfo {
 	margin-bottom: 25px;
-	/*margin-top: 25px;*/
-}
+}*/
 
-.productInfo img {
+/*.productInfo img {
 	border: none;
 	vertical-align: middle;
 	width: 100%;
@@ -66,20 +294,21 @@
 	padding-left: 0;
 	padding-right: 0;
 }
+*/
 
 
-.productPrice {
+/*.productPrice {
 	text-align: center;
 	font-weight: bold;
 	margin-top: 10px;
 }
-
-.productDescription {
+*/
+/*.productDescription {
 	text-align: center;
 	margin-top: -5px;
 }
-
-.productCard {
+*/
+/*.productCard {
 	border: 1px solid grey;
 	padding-top: 0;
 	padding-left: 0;
@@ -87,31 +316,32 @@
 	margin-bottom: 5px;
 	margin-top: 5px;
 	transition: all 0.4s ease;
-}
+}*/
 
-.productCard:hover {
+
+/*.productCard:hover {
 	transform: scale(1.2);
 	z-index:20;
-}
+}*/
 
-.box{
+/*.box{
   box-model: border-box;
-  border: 3px solid transparent;		/*For Spacing between Columns*/
+  border: 3px solid transparent;		/*For Spacing between Columns
   background-clip:padding-box;
-}
+}*/
 
-
+/*
 .fa-facebook-square, .fa-instagram {
 	font-size: 40px;
 	color: black;
 	transition: color 0.2s linear 0s, background 0.2s linear 0s;
 }
-
-.fa-facebook-square:hover, .fa-instagram:hover {
+*/
+/*.fa-facebook-square:hover, .fa-instagram:hover {
 	color: #ff9000;
-}
+}*/
 
-.footerinfo {
+/*.footerinfo {
 	background-color: #334259;
 	color: white;
 	padding-top: 60px;
@@ -119,53 +349,55 @@
 	text-align: center;
 
 }
-
-#footerinfoaboutus {
+*/
+/*#footerinfoaboutus {
 	text-align: justify;
 }
-
-
+*/
+/*
 .copyright { 
 	min-height:40px; background-color:#000000;
-}
+}*/
 
-.copyright p { 
+/*.copyright p { 
  	text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;
- }
+ }*/
 
- .footerlink { 
+/* .footerlink { 
  	color:#d8d8d8; 
  	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
  }
-
- a[class="footerlink"]:hover {
+*/
+/* a[class="footerlink"]:hover {
  	color: #ff9000;
- }
+ }*/
 
- #buttonTop {
+/* #buttonTop {
 	cursor: pointer;
 	display: none;
 	position: fixed;
 	bottom: 50px;
 	right: 30px;
 	border-radius: 10px;
-	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+	transition: all 0.2s linear 0s, background 0.2s linear 0s;
 }
+*/
 
-#buttonTop:hover {
+
+/*#buttonTop:hover {
 	background-color: black;
-}
+}*/
 
-#buttonTop:hover i {
+/*#buttonTop:hover i {
 	color: white;
-}
+}*/
 
 /*pull right for the badges*/
-.pull-right {			
+/*.pull-right {			
 	margin-top: 10px;
 	margin-right: 3px;
-}
+}*/
 
-#slider-range .ui-slider-range { 
+/*#slider-range .ui-slider-range { 
 	background: #88ac0b; 
 }

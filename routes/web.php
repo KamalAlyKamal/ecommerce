@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('home');
+});
+
+Route::get('/nav',function (){
+	return view('navbar');
 });

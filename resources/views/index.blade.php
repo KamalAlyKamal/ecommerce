@@ -28,6 +28,8 @@
         <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
         <link rel="stylesheet" href="/resources/demos/style.css">
 
+        {{-- nice scroll --}}
+        <script src="js/jquery.nicescroll.min.js"></script>
 
         <!-- Popper Js -->
         <script 
@@ -154,7 +156,7 @@
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/1.jpg" class="watchGrid">
+                                <div class="imgZoomIn"><img src="http://via.placeholder.com/280x280" class="watchGrid"></div>
                                 <p class="productPrice">$50</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
@@ -162,7 +164,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/2.jpg" class="watchGrid">
+                                <img src="http://via.placeholder.com/280x280" class="watchGrid">
                                 <p class="productPrice">$5</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
@@ -170,7 +172,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mr-auto box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/3.jpg" class="watchGrid">
+                                <img src="http://via.placeholder.com/280x280" class="watchGrid">
                                 <p class="productPrice">$50</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
@@ -178,7 +180,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/3.jpg" class="watchGrid">
+                                <img src="http://via.placeholder.com/280x280" class="watchGrid">
                                 <p class="productPrice">$50</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
@@ -186,7 +188,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/3.jpg" class="watchGrid">
+                                <img src="http://via.placeholder.com/280x280" class="watchGrid">
                                 <p class="productPrice">$50</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
@@ -194,7 +196,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/3.jpg" class="watchGrid">
+                                <img src="http://via.placeholder.com/280x280" class="watchGrid">
                                 <p class="productPrice">$50</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
@@ -202,7 +204,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/3.jpg" class="watchGrid">
+                                <img src="http://via.placeholder.com/280x280" class="watchGrid">
                                 <p class="productPrice">$50</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
@@ -210,7 +212,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/3.jpg" class="watchGrid">
+                                <img src="http://via.placeholder.com/280x280" class="watchGrid">
                                 <p class="productPrice">$50</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
@@ -218,7 +220,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 box form-group text-center productCard">
                             <div class="productInfo">
-                                <img src="/images/3.jpg" class="watchGrid">
+                                <img src="http://via.placeholder.com/280x280" class="watchGrid">
                                 <p class="productPrice">$50</p>
                                 <p class="productDescription">asdasd</p>
                                 <a href="#" class="btn btn-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a>
